@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/server-renderer": "^3.5.13",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "express": "^5.1.0",
+    "vue": "^3.2.13",
+    "webpack-manifest-plugin": "^5.0.1",
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
